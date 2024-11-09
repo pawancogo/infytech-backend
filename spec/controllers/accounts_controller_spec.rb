@@ -17,7 +17,7 @@ describe AccountsController, type: :controller do
         }}
     }
     it 'creates account with valid params' do
-        byebug
+        # byebug
         post '/accounts/signup', valid_params
         expect(response).to have_http_status(:created)
     end
